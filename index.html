@@ -53,19 +53,19 @@
             color:"burlywood"
         },
     ]
+    // <div style="transform: rotate(-90deg);top:0;"><p style="font-size: 11px;position: relative;top: calc(-50vw + 21px);left: calc(-87px);">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p></div>
+    // <div style="transform: rotate(-90deg);top:0;"><p style="font-size: 11px;position: relative;top: calc(50vw - 21px);left: calc(-66px);">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p></div>
         for(let i=0;i<data.length;i++){
             var str = `
             <div style="padding: 32px 16px 32px 16px;background-color: ${data[i].color};border-radius: 8px;margin-bottom: 32px;">
-        <p style="font-size: 11px;text-align: center;">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p>
+        <p style="font-size: 10px;text-align: center;">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p>
         <p style="padding:0px 0px 0px 16px">To Simrah Munaza Ikram:</p>
-        <div style="transform: rotate(-90deg);top:0;"><p style="font-size: 11px;position: relative;top: calc(-50vw + 21px);left: calc(-87px);">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p></div>
-        <div style="transform: rotate(-90deg);top:0;"><p style="font-size: 11px;position: relative;top: calc(50vw - 21px);left: calc(-66px);">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p></div>
         <div style="display: flex;flex-direction: column;align-items: flex-end;">
             <p style="padding:16px 24px 0px 16px;margin:0">${data[i].message}</p>
             <p style="align-self: flex-start;padding-left: 16px;">From: ${data[i].name}</p>
             <img src="EVP.png" style="width:30vw;padding-right: 16px;">
         </div>
-        <p style="font-size: 11px;text-align: center;">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p>
+        <p style="font-size: 10px;text-align: center;">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p>
     </div>
             `;
             document.getElementById("root").innerHTML += str
