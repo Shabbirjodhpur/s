@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpirse</title>
+</head>
+<body>
+    <h3 style="text-align: center;">HAPPY BIRTHDAY SIMRAH!!!</h3>
+
+    <div id="root"></div>
+<script>
+    const data=[
+        {
+            name:"Adil Mohammed Shakeel ",
+            message:"Happy birthday to one of the most amazing person I have ever met. Down to earth and always fun to talk to, also a brilliant secret keeper.May allah bless you with happiness and peace.Seth log way to go✨️",
+            color:"antiquewhite"
+        },
+        {
+            name:"Adeen Fatima",
+            message:"You are the most important person of my life.... The most respectable... practicing... loving...caring.... Responsible...likhtay baithay to text bas nai rehta 😂 ... But love you the most .... The person with principles ❤️... hoping this year brings you the best .... ",
+            color:"cadetblue"
+        },
+        {
+            name:"Aliya Noorain ",
+            message:"Happy birthday maam! You are the sweetest person, i get to learn sooo much with youuu❤️ May your life be filled with unconditional love and happiness!",
+            color:"cyan"
+        },
+        {
+            name:"Hajira sultana",
+            message:"It's hard to believe that we've only known each other for 5-6 months, because it feels like we've been friends for much longer than that. Working alongside you at EdVenture Park has been a joy, and I'm grateful for the chance to get to know you better.On your special day, I want to wish you all the happiness and success in the world. May this year bring you new opportunities, exciting edVentures, and meaningful connections. You have so much to offer, and I know that you're going to make a big impact in everything you do.",
+            color:"darkgoldenrod"
+        },
+        {
+            name:"Nai bolte naa …",
+            message:"Bolne ko to bohot hai lekin kyu small message bolne bole hai to hamne socha bohot ki kya hi bolsakte hai chote mai and then uske baad bohot sir daudaa ya like full daudaaya ki chota kya bole kyuki jagah bhi bas nahi ho rahi hai and zyaada words use hogaye to message cut hojaaega bas isi soch mai rehte rehte yaha tak likh te hue aage badh chuke hai and kyuki ab itna likh hi diya hai to bas ab soch hi lete hai wo ek baat jo choti si message ke shakal mai ho to jo baat hai wo choti si like you say in english small message is that Simrah is an amazing person great to work with! Can rely on them for anything! And its not because of what she does or brings to the table its because of who she is as a person :) kind hearted spirit with the zeal to actually do something and who is always on their toes even after working a lot because their brain thinks they have not done enough :) bas abhi dunya mai aake kuch saal hue hai to madam itna karne ke josh mai hai agle kuch saalo mai madam kaha ki kaha pohach jaate for sure! :)I feel ye ek do line ka message will be enough for the magnitude of things that can be said for simrah mam :)",
+            color:"yellowgreen;"
+        },
+        {
+            name:"ABDUL RAHMAN JAMEEL AHMED",
+            message:"I am glad to have a person like simrah in my life, she is adorable, talented, smart, matured, and loving, there is no one in Evp who can hate her, even simrah will be the first person to look upto when ever I need a co-founder! Thank you simrah for all the unconditional love and support you have done to me and all. Stay bless Stay amazing🎉🎉🎉 HAPPY BIRTHDAY 🎉🎉🎉",
+            color:"thistle"
+        },
+        {
+            name:"Sanskriti Sinha ",
+            message:"Pyaari Simraaah,You are one of the most brilliant girls I have ever met, be it your understanding of the people or concepts you always master them!) You are the freebird of our EVP, and I wish you to fly always. Happyyy happy happiest wala happy birthday darling😗Humesha khush rahii💙🧿⭐🌙🐷Sanskriti!",
+            color:"violet"
+        },
+        {
+            name:"The one whom Uzma thought was your brother - Shabbir",
+            message:"",
+            color:"burlywood"
+        },
+    ]
+        for(let i=0;i<data.length;i++){
+            var str = `
+            <div style="padding: 32px 16px 32px 16px;background-color: ${data[i].color};border-radius: 8px;margin-bottom: 32px;">
+        <p style="font-size: 11px;text-align: center;">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p>
+        <p style="padding:0px 0px 0px 16px">To Simrah Munaza Ikram:</p>
+        <div style="transform: rotate(-90deg);top:0;"><p style="font-size: 11px;position: relative;top: calc(-50vw + 21px);left: calc(-87px);">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p></div>
+        <div style="transform: rotate(-90deg);top:0;"><p style="font-size: 11px;position: relative;top: calc(50vw - 21px);left: calc(-66px);">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p></div>
+        <div style="display: flex;flex-direction: column;align-items: flex-end;">
+            <p style="padding:16px 24px 0px 16px;margin:0">${data[i].message}</p>
+            <p style="align-self: flex-start;padding-left: 16px;">From: ${data[i].name}</p>
+            <img src="EVP.png" style="width:30vw;padding-right: 16px;">
+        </div>
+        <p style="font-size: 11px;text-align: center;">EdVenturePark Loves You Back!!! EdVenturePark Loves You Back!!!</p>
+    </div>
+            `;
+            document.getElementById("root").innerHTML += str
+        }
+</script>
+</body>
+</html>
